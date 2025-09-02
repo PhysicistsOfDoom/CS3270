@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: my_weather_package
+Version: 0.1.0
+Summary: Canadian weather CSV statistics utilities
+Home-page: https://github.com/PhysicistsOfDoom/CS3270
+Author: Corbin
+Requires-Dist: pandas>=2.3.2
+Requires-Dist: numpy>=2.3.2
+Dynamic: author
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
