@@ -11,4 +11,4 @@ if __name__ == '__main__':
     file_name = r"C:\Users\corbi\Downloads\CS3270\weather_data\canada_weather.csv" 
 
 my_weather_package.display_csv_dataframe(file_name)
-my_weather_package.display_statistics(file_name)
+my_weather_package.display_elevation_statistics(file_name)
