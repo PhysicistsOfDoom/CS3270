@@ -6,18 +6,21 @@ Functions:
 
 """
 
-def display_elevation_statistics(stats: str) -> None:
-    """
-    This function is used to display ELEVATION stats gathered from the elevation_statics module.
-    """
-    print("Elevation (meters) statistics:")
-    print(f"Mean: {stats['mean']:.2f}")
-    print(f"Median: {stats['median']:.2f}")
-    print(f"Range: {stats['range']:.2f}")
-
-def display_csv_dataframe(results: dict) -> None:
-    """
-    This function displays CSV head from the provided weather data file.
-    """
-    return results.head() # Only print the head
+class FileDisplay:
+    @staticmethod
+    def display_elevation_statistics(stats: str) -> None:
+        """
+        This function is used to display ELEVATION stats gathered from the elevation_statics module.
+        """
+        print("Elevation (meters) statistics:")
+        print(f"Mean: {stats['mean']:.2f}")
+        print(f"Median: {stats['median']:.2f}")
+        print(f"Range: {stats['range']:.2f}")
+        
+    @staticmethod
+    def display_csv_head(results: dict) -> None:
+        """
+        This function displays CSV head from the provided weather data file.
+        """
+        return results.head() # Only print the head
     

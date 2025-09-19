@@ -10,14 +10,14 @@ from my_weather_package import file_calculator, file_reader, display_results
 if __name__ == '__main__':
     file_name = r"C:\Users\corbi\Downloads\CS3270\weather_data\canada_weather.csv" 
 
-    # Read the file and get the DataFrame
-    pd_data_frame = file_reader.read_file(file_name)
+    # No objects. Just static methods. So call the methods directly.
+    pd_data_frame = file_reader.FileReader.read_file(file_name)
     
-    # Display the DataFrame
-    head_of_dataframe = display_results.display_csv_dataframe(pd_data_frame)
+    # Use the static method in display_results to display the head of the dataframe
+    head_of_dataframe = display_results.FileDisplay.display_csv_head(pd_data_frame)
     print(head_of_dataframe)
 
-    # Display the Mean, Median & Range of the Elevation column
-    elevation_stats = file_calculator.elevation_statistics(pd_data_frame)
-    display_results.display_elevation_statistics(elevation_stats)
+    # Display the Mean, Median & Range of the Elevation column using the file_calculator & display_results modules
+    elevation_stats = file_calculator.FileCalculator.elevation_statistics(pd_data_frame)
+    display_results.FileDisplay.display_elevation_statistics(elevation_stats)
 
