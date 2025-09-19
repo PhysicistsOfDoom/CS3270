@@ -7,7 +7,7 @@ Functions:
 
 """
 
-from .file_reader import read_file
+import pandas as pd
 import re
 
 def extract_elevation_meters(elevation_str):
@@ -21,11 +21,10 @@ def extract_elevation_meters(elevation_str):
             return float(match.group(1).replace(',', ''))
     return float('nan')
 
-def elevation_statistics(file_name: str) -> dict:
+def elevation_statistics(df: pd.DataFrame) -> dict:
     """
     This function will use the meter values to calculate MEAN, MEDIAN & RANGE
     """
-    df = read_file(file_name)
     elevation_meters = df['Elevation'].apply(extract_elevation_meters)
     stats = {
         "mean": elevation_meters.mean(),
