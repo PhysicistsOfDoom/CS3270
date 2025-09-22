@@ -9,6 +9,9 @@ Functions:
 """
 
 import pandas as pd
+from .logger import setup_logger
+# Make a global logger instance
+logger = setup_logger()
 
 class FileReader:
     @staticmethod
@@ -22,7 +25,13 @@ class FileReader:
         Output:
             A Dataframe containing the data 
         """
-        content = pd.read_csv(file_name)
+        logger.info(f"Reading CSV file from {file_name}")
+        try:
+            content = pd.read_csv(file_name)
+        except FileNotFoundError as fnf_error:
+            logger.error(f"FileNotFoundError: {fnf_error}")
+            raise
+        logger.info("Successfully read the CSV file!")
         return content
 
 

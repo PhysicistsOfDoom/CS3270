@@ -8,7 +8,11 @@ Functions:
 """
 
 import pandas as pd
+from .logger import setup_logger
 import re
+
+# Make a global logger instance
+logger = setup_logger()
 
 class FileCalculator:
     @staticmethod

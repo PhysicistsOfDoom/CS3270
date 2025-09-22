@@ -5,6 +5,9 @@ Functions:
     display_statistics
 
 """
+from .logger import setup_logger
+# Make a global logger instance
+logger = setup_logger()
 
 class FileDisplay:
     @staticmethod
