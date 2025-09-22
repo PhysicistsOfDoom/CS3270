@@ -1,4 +1,10 @@
 # Weather CSV to DataFrame
+# Updates Phase 4:
+1. main.py & all /src files have been edited with Logging & error handling.
+2. display_csv_head has been edited to demonstrate generators using the "yield" command
+3. File Paths have been adjusted to use the os module for exact file paths.
+4. logger.py, /logs, app.log have been added to demonstrate custom logging.
+
 ## Overview
 This Python Script will use **Pandas** to read a static CSV path and return a **DataFrame**
 

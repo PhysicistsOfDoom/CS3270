@@ -1,3 +1,12 @@
+"""
+Logger module is responsible for setting up and configuring the logging for the application.
+It creates a logger that writes logs to 'app.log' file located in the 'logs'
+directory. The logger is configured to log messages at the DEBUG level and above.
+
+Returns:
+    logging.Logger: Configured logger instance.
+"""
+
 import logging
 import os
 

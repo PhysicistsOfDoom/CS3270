@@ -21,9 +21,9 @@ class FileDisplay:
         print(f"Range: {stats['range']:.2f}")
         
     @staticmethod
-    def display_csv_head(results: dict) -> None:
+    def display_csv_head(results: dict):
         """
         This function displays CSV head from the provided weather data file.
         """
-        return results.head() # Only print the head
+        yield results.head() # Only print the head
     
