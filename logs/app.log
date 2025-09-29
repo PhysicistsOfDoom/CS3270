@@ -132,3 +132,13 @@
 2025-09-28 23:09:36,849 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\data\canada_weather.csv
 2025-09-28 23:09:36,852 - app_logger - INFO - Successfully read the CSV file!
 2025-09-28 23:09:36,860 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:18:24,029 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\tests\data\canada_weather.csv
+2025-09-28 23:18:24,033 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:18:24,034 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\tests\data\canada_weather.csv
+2025-09-28 23:18:24,035 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:18:24,036 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\tests\data\canada_weather.csv
+2025-09-28 23:18:24,038 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:18:28,619 - app_logger - INFO - Looking for the CSV file...
+2025-09-28 23:18:28,619 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\data\canada_weather.csv
+2025-09-28 23:18:28,622 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:18:28,630 - app_logger - INFO - Successfully read the CSV file!
