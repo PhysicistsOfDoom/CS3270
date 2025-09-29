@@ -38,7 +38,7 @@ def get_csv_file_path() -> str:
     """
     # Example static path; modify as needed
     current_dir = os.path.dirname(__file__)
-    csv_file_path = os.path.join(current_dir, 'weather_data', 'canada_weather.csv')
+    csv_file_path = os.path.join(current_dir, 'data', 'canada_weather.csv')
     return csv_file_path
 
 if __name__ == '__main__':

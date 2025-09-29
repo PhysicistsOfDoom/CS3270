@@ -1,0 +1,134 @@
+2025-09-21 22:19:25,742 - app_logger - INFO - Looking for the CSV file...
+2025-09-21 22:19:25,742 - app_logger - INFO - Reading CSV file from c:\Users\corbi\Downloads\CS3270\weather_data\canada_weather.csv
+2025-09-21 22:19:25,746 - app_logger - INFO - Successfully read the CSV file!
+2025-09-21 22:19:25,754 - app_logger - INFO - Successfully read the CSV file!
+2025-09-21 22:19:33,750 - app_logger - INFO - Looking for the CSV file...
+2025-09-21 22:19:33,750 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\weather_data\canada_weather.csv
+2025-09-21 22:19:33,762 - app_logger - INFO - Successfully read the CSV file!
+2025-09-21 22:19:33,786 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 11:35:09,718 - app_logger - INFO - Looking for the CSV file...
+2025-09-28 11:35:09,719 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\weather_data\canada_weather.csv
+2025-09-28 11:35:09,720 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\weather_data\\canada_weather.csv'
+2025-09-28 11:35:09,720 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\weather_data\\canada_weather.csv'
+2025-09-28 11:36:16,165 - app_logger - INFO - Looking for the CSV file...
+2025-09-28 11:36:16,165 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\data\canada_weather.csv
+2025-09-28 11:36:16,181 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 11:36:16,198 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 11:36:21,431 - app_logger - INFO - Looking for the CSV file...
+2025-09-28 11:36:21,431 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\data\canada_weather.csv
+2025-09-28 11:36:21,434 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 11:36:21,442 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 11:39:09,321 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\tests\data\canada_weather.csv
+2025-09-28 11:39:09,322 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\tests\\data\\canada_weather.csv'
+2025-09-28 11:39:09,547 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\tests\data\canada_weather.csv
+2025-09-28 11:39:09,547 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\tests\\data\\canada_weather.csv'
+2025-09-28 11:39:09,601 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\tests\data\canada_weather.csv
+2025-09-28 11:39:09,601 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\tests\\data\\canada_weather.csv'
+2025-09-28 17:06:58,861 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\tests\data\canada_weather.csv
+2025-09-28 17:06:58,863 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\tests\\data\\canada_weather.csv'
+2025-09-28 17:06:59,117 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\tests\data\canada_weather.csv
+2025-09-28 17:06:59,117 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\tests\\data\\canada_weather.csv'
+2025-09-28 17:06:59,170 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\tests\data\canada_weather.csv
+2025-09-28 17:06:59,170 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\tests\\data\\canada_weather.csv'
+2025-09-28 22:51:25,936 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:51:25,937 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\tests\\data\\canada_weather.csv'
+2025-09-28 22:51:26,189 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:51:26,189 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\tests\\data\\canada_weather.csv'
+2025-09-28 22:51:26,241 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:51:26,241 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\tests\\data\\canada_weather.csv'
+2025-09-28 22:51:46,804 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:51:46,805 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\tests\\data\\canada_weather.csv'
+2025-09-28 22:51:47,022 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:51:47,022 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\tests\\data\\canada_weather.csv'
+2025-09-28 22:51:47,077 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:51:47,077 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\tests\\data\\canada_weather.csv'
+2025-09-28 22:52:25,202 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:52:25,203 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\tests\\data\\canada_weather.csv'
+2025-09-28 22:52:25,424 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:52:25,425 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\tests\\data\\canada_weather.csv'
+2025-09-28 22:52:25,481 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:52:25,481 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\tests\\data\\canada_weather.csv'
+2025-09-28 22:53:14,337 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:53:14,338 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\tests\\data\\canada_weather.csv'
+2025-09-28 22:53:14,569 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:53:14,570 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\tests\\data\\canada_weather.csv'
+2025-09-28 22:53:14,623 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:53:14,624 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\tests\\data\\canada_weather.csv'
+2025-09-28 22:54:24,472 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:54:24,494 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 22:54:24,499 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:54:24,501 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 22:54:24,502 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:54:24,503 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 22:55:58,285 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\weather_data\canada_weather.csv
+2025-09-28 22:55:58,287 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\weather_data\\canada_weather.csv'
+2025-09-28 22:55:58,347 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\weather_data\canada_weather.csv
+2025-09-28 22:55:58,347 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\weather_data\\canada_weather.csv'
+2025-09-28 22:55:58,402 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\weather_data\canada_weather.csv
+2025-09-28 22:55:58,402 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\weather_data\\canada_weather.csv'
+2025-09-28 22:56:25,958 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\weather_data\canada_weather.csv
+2025-09-28 22:56:25,959 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\weather_data\\canada_weather.csv'
+2025-09-28 22:56:26,019 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\weather_data\canada_weather.csv
+2025-09-28 22:56:26,020 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\weather_data\\canada_weather.csv'
+2025-09-28 22:56:26,073 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\weather_data\canada_weather.csv
+2025-09-28 22:56:26,073 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\weather_data\\canada_weather.csv'
+2025-09-28 22:56:31,496 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\weather_data\canada_weather.csv
+2025-09-28 22:56:31,497 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\weather_data\\canada_weather.csv'
+2025-09-28 22:56:31,558 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\weather_data\canada_weather.csv
+2025-09-28 22:56:31,558 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\weather_data\\canada_weather.csv'
+2025-09-28 22:56:31,613 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\weather_data\canada_weather.csv
+2025-09-28 22:56:31,613 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\weather_data\\canada_weather.csv'
+2025-09-28 22:56:39,075 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\weather_data\canada_weather.csv
+2025-09-28 22:56:39,076 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\weather_data\\canada_weather.csv'
+2025-09-28 22:56:39,136 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\weather_data\canada_weather.csv
+2025-09-28 22:56:39,137 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\weather_data\\canada_weather.csv'
+2025-09-28 22:56:39,191 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\weather_data\canada_weather.csv
+2025-09-28 22:56:39,192 - app_logger - ERROR - FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\corbi\\Downloads\\CS3270\\root_folder\\weather_data\\canada_weather.csv'
+2025-09-28 22:56:47,513 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:56:47,516 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 22:56:47,518 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:56:47,519 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 22:56:47,521 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:56:47,522 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 22:58:59,106 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:58:59,110 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 22:58:59,111 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:58:59,112 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 22:58:59,114 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:58:59,115 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 22:59:18,488 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:59:18,492 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 22:59:18,493 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:59:18,495 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 22:59:18,496 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 22:59:18,498 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 22:59:28,162 - app_logger - INFO - Looking for the CSV file...
+2025-09-28 22:59:28,162 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\data\canada_weather.csv
+2025-09-28 22:59:28,173 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 22:59:28,190 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:01:16,551 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 23:01:16,555 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:01:16,556 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 23:01:16,558 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:01:16,559 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 23:01:16,560 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:08:06,963 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 23:08:06,967 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:08:06,968 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 23:08:06,969 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:08:06,971 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 23:08:06,972 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:09:06,988 - app_logger - INFO - Looking for the CSV file...
+2025-09-28 23:09:06,988 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\data\canada_weather.csv
+2025-09-28 23:09:06,991 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:09:06,999 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:09:16,284 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 23:09:16,288 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:09:16,289 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 23:09:16,290 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:09:16,291 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\tests\data\canada_weather.csv
+2025-09-28 23:09:16,292 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:09:36,849 - app_logger - INFO - Looking for the CSV file...
+2025-09-28 23:09:36,849 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\root_folder\data\canada_weather.csv
+2025-09-28 23:09:36,852 - app_logger - INFO - Successfully read the CSV file!
+2025-09-28 23:09:36,860 - app_logger - INFO - Successfully read the CSV file!

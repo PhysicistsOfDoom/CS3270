@@ -1,8 +1,0 @@
-2025-09-21 22:19:25,742 - app_logger - INFO - Looking for the CSV file...
-2025-09-21 22:19:25,742 - app_logger - INFO - Reading CSV file from c:\Users\corbi\Downloads\CS3270\weather_data\canada_weather.csv
-2025-09-21 22:19:25,746 - app_logger - INFO - Successfully read the CSV file!
-2025-09-21 22:19:25,754 - app_logger - INFO - Successfully read the CSV file!
-2025-09-21 22:19:33,750 - app_logger - INFO - Looking for the CSV file...
-2025-09-21 22:19:33,750 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\weather_data\canada_weather.csv
-2025-09-21 22:19:33,762 - app_logger - INFO - Successfully read the CSV file!
-2025-09-21 22:19:33,786 - app_logger - INFO - Successfully read the CSV file!
