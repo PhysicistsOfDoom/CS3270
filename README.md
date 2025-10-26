@@ -51,24 +51,29 @@ pip install pandas pytest
 ## Running
 
 ### Option 1: Run main.py directly
+```bash
 python main.py
-
+```
 ### Option 2: Use the shell script
+```bash
 ./scripts/run_main.sh
+```
 
 ---
-
 
 ## Tests
 ### Option 1: Run tests with pytest
+```bash
 pytest -v
-
+```
 ### Option 2: Run tests with the helper script
+```bash
 ./scripts/run_tests.sh
-
+```
 ---
 
 ## Sample Output
+```bash
 Reading weather data from: data/canada_weather.csv
 Data loaded successfully with 1000 rows and 8 columns
 
@@ -76,3 +81,4 @@ Elevation Statistics:
 Mean: 485.7 m
 Median: 320.0 m
 Range: 2847.0 m
+```
