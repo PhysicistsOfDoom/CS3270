@@ -45,6 +45,8 @@ source venv/bin/activate
 
 # 3. Install dependencies
 pip install pandas pytest
+```
+---
 
 ## Running
 
@@ -54,12 +56,17 @@ python main.py
 # Option 2: Use the shell script
 ./scripts/run_main.sh
 
+---
+
+
 ## Tests
 # Option 1: Run tests with pytest
 pytest -v
 
 # Option 2: Run tests with the helper script
 ./scripts/run_tests.sh
+
+---
 
 ## Sample Output
 Reading weather data from: data/canada_weather.csv
