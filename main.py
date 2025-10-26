@@ -20,7 +20,7 @@ Author: Corbin Beus
 Date: 09/20/2025
 """
 
-from src import file_calculator, file_reader, display_results
+from src import file_calculator, file_reader, display_results, visual_plot
 from src.logger import setup_logger
 import os
 
@@ -59,6 +59,9 @@ if __name__ == '__main__':
     # Display the Mean, Median & Range of the Elevation column using the file_calculator & display_results modules
         elevation_stats = file_calculator.FileCalculator.elevation_statistics(pd_data_frame)
         display_results.FileDisplay.display_elevation_statistics(elevation_stats)
+
+    # Display the elevation
+        visual_plot.PlotResults.plot_elevation_statistics(elevation_stats)
 
     # Exception handling for file reading and processing
     except FileNotFoundError as fnf_error:

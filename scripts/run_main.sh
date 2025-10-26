@@ -1,6 +1,3 @@
 #!/bin/bash
-
-cd "$(dirname "$(dirname "${BASH_SOURCE[0]}")")"
-
-# Commands
+cd "$(dirname "$0")"/..
 python main.py
