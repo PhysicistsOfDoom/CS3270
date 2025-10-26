@@ -5,7 +5,9 @@ It calculates elevation statistics, displays results, and supports logging and t
 
 ---
 
-# Phase 6:
+## Phase Updates
+
+### Phase 6:
 Inside of src/visual_plot.py, data visualization and patterns have been used in order to show a useful visualization of the mean, median and range.
 README updated.
 main.py updated to call the src/visual_plot.py
