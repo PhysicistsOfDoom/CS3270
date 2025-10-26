@@ -50,20 +50,20 @@ pip install pandas pytest
 
 ## Running
 
-# Option 1: Run main.py directly
+### Option 1: Run main.py directly
 python main.py
 
-# Option 2: Use the shell script
+### Option 2: Use the shell script
 ./scripts/run_main.sh
 
 ---
 
 
 ## Tests
-# Option 1: Run tests with pytest
+### Option 1: Run tests with pytest
 pytest -v
 
-# Option 2: Run tests with the helper script
+### Option 2: Run tests with the helper script
 ./scripts/run_tests.sh
 
 ---
