@@ -22,7 +22,9 @@ Date: 09/20/2025
 
 from src import file_calculator, file_reader, display_results, visual_plot
 from src.logger import setup_logger
+from src.async_reader import AsyncFileReader
 import os
+import asyncio
 
 # Global logger instance
 logger = setup_logger()
@@ -40,6 +42,13 @@ def get_csv_file_path() -> str:
     current_dir = os.path.dirname(__file__)
     csv_file_path = os.path.join(current_dir, 'data', 'canada_weather.csv')
     return csv_file_path
+
+# Async call for CSV reading
+async def fetch_csv():
+    file_name = get_csv_file_path()
+    logger.info("Reading CSV asynchronously...")
+    df = await AsyncFileReader.read_file_async(file_name)
+    return df
 
 if __name__ == '__main__':
 
@@ -63,11 +72,12 @@ if __name__ == '__main__':
     # Display the elevation
         visual_plot.PlotResults.plot_elevation_statistics(elevation_stats)
 
-    # Exception handling for file reading and processing
+
     except FileNotFoundError as fnf_error:
         logger.error(f"FileNotFoundError: {fnf_error}")
         raise
     except Exception as e:
         logger.critical(f"Unknown Error occurred while reading or display: {e}")
         raise
+
     logger.info("Successfully read the CSV file!")

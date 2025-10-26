@@ -12,6 +12,14 @@ Inside of src/visual_plot.py, data visualization and patterns have been used in 
 README updated.
 main.py updated to call the src/visual_plot.py
 
+
+### Phase 7:
+Inside src/async_reader.py, I implemented the use of async programming to speed up the reading of the CSV using the asyncio package.
+Also, inside tests/tests_async_reading.py is an implementation checking if the returned value is indeed a Dataframe, returned from the
+async function.
+README updated.
+main.py updated with calling of async function
+created tests_async_reading.py, async_reader.py 
 --- 
 
 ## Requirements
