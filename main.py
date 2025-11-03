@@ -23,6 +23,7 @@ Date: 09/20/2025
 from src import file_calculator, file_reader, display_results, visual_plot
 from src.logger import setup_logger
 from src.async_reader import AsyncFileReader
+from pyspark.sql import SparkSession
 import os
 import asyncio
 
@@ -43,6 +44,22 @@ def get_csv_file_path() -> str:
     csv_file_path = os.path.join(current_dir, 'data', 'canada_weather.csv')
     return csv_file_path
 
+# Helper to attempt reading PySpark first and then fall back to pandas if it fails
+def read_with_fallback(file_name):
+    try:
+        logger.info("Attempting to read CSV with PySpark...")
+        spark = SparkSession.builder.appName("WeatherDataApp").getOrCreate()
+        df_spark = spark.read.csv(file_name, header=True, inferSchema=True)
+        logger.info("Successfully read CSV using PySpark!")
+
+        df_pandas = df_spark.toPandas()
+        return df_pandas
+
+    except Exception as e:
+        logger.warning(f"PySpark read failed: {e}")
+        logger.info("Falling back to Pandas FileReader...")
+        return file_reader.FileReader.read_file(file_name)
+
 # Async call for CSV reading
 async def fetch_csv():
     file_name = get_csv_file_path()
@@ -54,6 +71,7 @@ if __name__ == '__main__':
 
     # File path to the CSV file
     logger.info("Looking for the CSV file...")
+
     try:
         # Read and store CSV file -> File path
         file_name = get_csv_file_path()
@@ -61,15 +79,15 @@ if __name__ == '__main__':
         # Use the static method in file_reader to read the CSV file -> Pandas DataFrame
         pd_data_frame = file_reader.FileReader.read_file(file_name)
 
-        # Display the first 5 rows of the DataFrame using the display_results module -> DataFrame head
+        # Display the first 5 rows
         head_of_dataframe = display_results.FileDisplay.display_csv_head(pd_data_frame)
         print(next(head_of_dataframe))
 
-    # Display the Mean, Median & Range of the Elevation column using the file_calculator & display_results modules
+        # Calculate elevation stats
         elevation_stats = file_calculator.FileCalculator.elevation_statistics(pd_data_frame)
         display_results.FileDisplay.display_elevation_statistics(elevation_stats)
 
-    # Display the elevation
+        # Display Results
         visual_plot.PlotResults.plot_elevation_statistics(elevation_stats)
 
 

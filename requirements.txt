@@ -7,3 +7,4 @@ tzdata==2025.2
 pytest==7.4.2
 pytest-mock==4.0.0
 matplotlib==3.8.2
+pyspark==3.5.3

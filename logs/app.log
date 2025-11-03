@@ -194,3 +194,15 @@
 2025-10-25 19:57:29,322 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\data\canada_weather.csv
 2025-10-25 19:57:29,325 - app_logger - INFO - Successfully read the CSV file!
 2025-10-25 19:58:25,544 - app_logger - INFO - Successfully read the CSV file!
+2025-10-25 20:40:02,678 - app_logger - INFO - Looking for the CSV file...
+2025-10-25 20:40:02,678 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\data\canada_weather.csv
+2025-10-25 20:40:02,681 - app_logger - INFO - Successfully read the CSV file!
+2025-10-25 20:47:53,573 - app_logger - INFO - Successfully read the CSV file!
+2025-11-03 06:30:11,488 - app_logger - INFO - Looking for the CSV file...
+2025-11-03 06:30:11,488 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\data\canada_weather.csv using Pandas
+2025-11-03 06:30:11,503 - app_logger - INFO - Successfully read CSV using Pandas!
+2025-11-03 06:31:09,683 - app_logger - INFO - Successfully read the CSV file!
+2025-11-03 06:35:40,983 - app_logger - INFO - Looking for the CSV file...
+2025-11-03 06:35:40,983 - app_logger - INFO - Reading CSV file from C:\Users\corbi\Downloads\CS3270\data\canada_weather.csv using Pandas
+2025-11-03 06:35:40,986 - app_logger - INFO - Successfully read CSV using Pandas!
+2025-11-03 06:35:42,646 - app_logger - INFO - Successfully read the CSV file!
