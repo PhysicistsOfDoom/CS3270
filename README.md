@@ -9,18 +9,27 @@ It calculates elevation statistics, displays results, and supports logging and t
 
 ### Phase 6:
 Inside of src/visual_plot.py, data visualization and patterns have been used in order to show a useful visualization of the mean, median and range.
-README updated.
-main.py updated to call the src/visual_plot.py
-
+- README updated.
+- main.py updated to call the src/visual_plot.py
 
 
 ### Phase 7:
 Inside src/async_reader.py, I implemented the use of async programming to speed up the reading of the CSV using the asyncio package.
 Also, inside tests/tests_async_reading.py is an implementation checking if the returned value is indeed a Dataframe, returned from the
 async function.
-README updated.
-main.py updated with calling of async function
-created tests_async_reading.py, async_reader.py 
+- README updated.
+- main.py updated with calling of async function
+- created tests_async_reading.py, async_reader.py 
+
+
+### Phase 8:
+Inside /src/file_reader.py, the usage of PySpark to apply clustering has
+been implemented but not replaced pandas.
+Both are used for the purposes of resiliency & redundancy.
+However, PySpark is primary attempt. Pandas is a fallback.
+- README updated
+- main.py updated with helper 
+- requirements.txt updated
 
 --- 
 
